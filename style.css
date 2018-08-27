@@ -1,0 +1,45 @@
+html,body{
+  height: 100%;
+  background-color: #181717;
+  overflow: hidden;
+}
+
+.heading{
+  color: #007791;
+  text-align: center;
+  font-size: 130px;
+  font-weight: bold;
+  margin: auto;
+  font-family: 'Poller One', cursive;
+}
+
+.info{
+  font-size: 22px;
+}
+
+.abhay{
+  color: #E1695F;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 250px;
+  font-family: 'Sacramento', cursive;
+}
+.abhay:hover{
+  color: #007791;
+}
+
+#time_zone {
+  text-align: center;
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+  border: thick double #007791;
+  width: 50%;
+  margin: auto;
+}
+
+
+.footer_class{
+  text-align: center;
+  margin-top: 125px;
+}

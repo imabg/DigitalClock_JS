@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&amp;subset=latin-ext" rel="stylesheet">
+    <script type="text/javascript">
+    function update () {
+        let d = new Date(),
+        hr = d.getHours(),
+        min = d.getMinutes(),
+        sec = d.getSeconds();
+        document.getElementById('time_zone').innerHTML = changeIt(hr)+ ' : ' + changeIt(min) + ' : ' + changeIt(sec) ;
+  }
+    setInterval('update()', 1000);
+    function changeIt (i) {
+      if(i < 10)
+        i = '0' + i;
+
+      return i;
+    }
+    </script>
+  </head>
+  <body onload="update()">
+    <h1 class="heading">Digital Clock</h1>
+    <div id="time_zone"></div>
+    <div id="time"></div>
+    <footer class="footer_class">
+      <div class="about_me">
+        <p class="info">Created by <span class="abhay">Abhay Goswami</span></p>
+      </div>
+    </footer>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
