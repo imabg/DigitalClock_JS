@@ -14,7 +14,7 @@ html,body{
 }
 
 .info{
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .abhay{
@@ -26,6 +26,7 @@ html,body{
 }
 .abhay:hover{
   color: #007791;
+  text-decoration: line-through;
 }
 
 #time_zone {
